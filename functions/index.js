@@ -21,7 +21,7 @@ const fs = require('fs');
 const path = require('path');
 const os = require('os');
 const utils = require('./utils');
-const algolia = require('./algolia');
+// const algolia = require('./algolia');
 
 require('dotenv').config();
 

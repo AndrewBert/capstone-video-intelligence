@@ -141,7 +141,7 @@ exports.makePreviewImage = function(
   const cmd = ffmpeg(inFilePath)
       .screenshots({
         count: 1,
-        timemarks: [timeMark],
+        timemarks: ['00:00:02.000'],
         size: `${width}x?`,
         folder: outDir,
         filename: outFileName,
